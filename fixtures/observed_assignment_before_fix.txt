@@ -1,0 +1,8 @@
+# i_DumpDeviceInformation with actionmaps_before.xml pins and the enumeration order in game_log_connected.txt
+# (N) is the 0-based instance; keybind UI shows N+1 as "Input N+1"
+vJoy Device                 joystick0 (0)   -> Input 1   pin matched
+VKBSim NXT SEM              joystick1 (1)   -> Input 2   pin matched
+VKBSim NXT SEM              joystick2 (2)   -> Input 3   COLLISION: pin 2 taken, fell through to lowest free (3) instead of pin 5
+VKBSim Space Gunfighter     joystick3 (4)   -> Input 5   DISPLACED: its pin (3) was occupied; row not printed by the dump
+VKBSim Space Gunfighter L   joystick4 (3)   -> Input 4   pin matched
+vJoy Device                 joystick5 (5)   -> Input 6   pin matched
